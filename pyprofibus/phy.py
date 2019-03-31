@@ -37,7 +37,7 @@ class CpPhy(object):
 	BAUD_6000000	= 6000000
 	BAUD_12000000	= 12000000
 
-	def __init__(self, debug = False):
+	def __init__(self, debug=False, *args, **kwargs):
 		self.debug = debug
 		self.__close()
 
